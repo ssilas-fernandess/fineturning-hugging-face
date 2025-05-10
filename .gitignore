@@ -1,0 +1,33 @@
+# Arquivos de ambiente virtual
+venv/
+.env/
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Dados e resultados
+results/
+logs/
+
+# Checkpoints e artefatos
+*.ckpt
+*.pt
+*.bin
+
+# Arquivos gerados pelo Hugging Face
+*.log
+*.lock
+tokenizer_config.json
+trainer_state.json
+training_args.bin
+
+# Notebooks e backups
+*.ipynb_checkpoints
+
+# Outras pastas ocultas
+.cache/
+.huggingface/
+
+.venv/

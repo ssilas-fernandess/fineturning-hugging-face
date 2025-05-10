@@ -67,7 +67,7 @@ training_args = Seq2SeqTrainingArguments(
     predict_with_generate=True,
     logging_dir="./logs",
     push_to_hub=True,
-    hub_model_id="ssilasfernandess/qa-flan-t5-finetuned",
+    hub_model_id="ssilasfernandess/fineturning-hugging-face",
     hub_strategy="every_save"
 )
 
